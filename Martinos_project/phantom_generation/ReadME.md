@@ -1,4 +1,4 @@
-## This document is for description for each phantom file
+# This document is for description for each phantom file
 
 ## Main files are phantom_3, phantom_6, phantom_7, and phantom_9
 
