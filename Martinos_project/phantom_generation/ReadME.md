@@ -27,19 +27,19 @@ Relic of a bygone era... Doesn't officially exist... Soon to be removed. Don't l
 
 ### phantom_6
 
-A 2D version of phantom 3. We input a 2D shepp-logan array as our phantom which is resized to match the
+A 2D version of phantom 3. We input a 2D shepp-logan array as our phantom, generates a 2D kspace, and finally recontructs the image using fourier and lsqr techniques. Specially for the LSQR, we make project the 4D tensor onto a 2D matrix and plug that in the LSQR library with the kspace vector which is created by stacking the columns of the matrix.
 
 ### phantom_7
 
-Description soon to be added
+Same as phantom 6, we create a 2D shepp-logan array but also load a B0 field map. We create a kspace and reconstruct the image using fourier methods. We can see distortion from the B0 inhomogineities. 
 
 ### phantom_8
 
-Description soon to be added
+Testing out 3D phantom... Not working on it until I finish the 2D version first
 
 ### phantom_9
 
-Description soon to be added
+Redefining how I make the kspace and replacing the time length which a metric based on the size of kspace in that particular direction.
 
 ### phantom_10
 
