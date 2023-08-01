@@ -3,10 +3,6 @@
 ## Main files are phantom_3, phantom_6, phantom_7, and phantom_9
 
 
-### phantom_1 and phantom_2 
-
-Prehistoric tests from a time before knowledge and history, maybe even before life itself... Soon to be removed. Don't bother looking at them.
-
 ### phantom_3
 
 This iteration generates a 1D phantom, a 1D kspace and encoding matrix using discrete fourier transforms equations. There are three phantom options which are commented so you can pick and choose which phantom you want to use. 
@@ -20,10 +16,6 @@ There are two ways that the image is reconstructed.
 ### phantom_4 
 
 This is a test recon file for understanding what the 1D kspace looks like by using a numpy fft function.
-
-### phantom_5
-
-Relic of a bygone era... Doesn't officially exist... Soon to be removed. Don't look at it
 
 ### phantom_6
 
