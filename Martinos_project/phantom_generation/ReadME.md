@@ -39,7 +39,7 @@ Testing out 3D phantom... Not working on it until I finish the 2D version first
 
 ### phantom_9
 
-Redefining how I make the kspace and replacing the time length which a metric based on the size of kspace in that particular direction.
+Redefining how I make the kspace and replacing the time length which a metric based on the size of kspace in that particular direction. This allows for under and over sampling.
 
 ### phantom_10
 
