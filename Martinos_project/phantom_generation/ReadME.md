@@ -35,4 +35,10 @@ Redefining how I make the kspace and replacing the time length which a metric ba
 
 ### phantom_10
 
-Description soon to be added
+Playing around with non-linear gradients and with random noise. I'm seeing how this affects the image reconstruction
+
+### phantom_11
+
+First step of parallel imaging. Undersampled twice along the x direction on the even and odd indicies. This generates two undersampled kspaces and encoding matrices. Then I combine them to create my full image.
+
+
